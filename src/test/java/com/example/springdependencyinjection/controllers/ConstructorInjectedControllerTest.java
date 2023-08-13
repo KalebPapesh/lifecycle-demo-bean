@@ -13,6 +13,7 @@ class ConstructorInjectedControllerTest {
 
     @Test
     void testSayHello() {
+        System.out.println(controller.sayHello());
         assertEquals("Hello Everyone From Base Service", controller.sayHello());
     }
 }

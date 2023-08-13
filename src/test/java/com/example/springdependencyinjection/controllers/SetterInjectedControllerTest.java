@@ -13,6 +13,7 @@ class SetterInjectedControllerTest {
 
     @Test
     void sayHello() {
-        assertEquals("Hello Everyone From Base Service", setterInjectedController.sayHello());
+        System.out.println(setterInjectedController.sayHello());
+        assertEquals("Hey I'm setting a greeting!", setterInjectedController.sayHello());
     }
 }

@@ -13,6 +13,7 @@ class PropertyInjectedControllerTest {
 
     @Test
     void testSayHello() {
-        assertEquals("Hello Everyone From Base Service", propertyInjectedController.sayHello());
+        System.out.println(propertyInjectedController.sayHello());
+        assertEquals("Friends don't let friends use property injection!!!", propertyInjectedController.sayHello());
     }
 }
