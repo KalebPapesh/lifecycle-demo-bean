@@ -7,7 +7,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ActiveProfiles("EN")
+@ActiveProfiles({ "EN", "dev"})
 @SpringBootTest
 class Myi18NControllerTestEN {
 
