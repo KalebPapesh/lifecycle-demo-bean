@@ -1,1 +1,1 @@
-# Spring Dependency Injection Project
+# Spring Bean Lifecycle Demo Project

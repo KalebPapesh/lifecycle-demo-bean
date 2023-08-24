@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springdependencyinjection</artifactId>
+	<artifactId>springbeanlifecycledemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springdependencyinjection</name>
-	<description>Spring project for dependency injection</description>
+	<name>springbeanlifecycledemo</name>
+	<description>Spring project for Spring Bean Lifecycle Demo injection</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
